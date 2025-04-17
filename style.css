@@ -1,0 +1,106 @@
+/* Reset and fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    background: #ecf0f1;
+  }
+  
+  /* 🌊 Navbar Styles */
+  .navbar {
+    position: sticky;
+    top: 0;
+    background: #22a6b3;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #dff9fb;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 80px 20px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .section h1, .section h2 {
+    color: #0984e3;
+    margin-bottom: 15px;
+  }
+  
+  .section p {
+    color: #636e72;
+    font-size: 16px;
+  }
+  
+  /* Form Styling */
+  form {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+    color: #2d3436;
+  }
+  
+  form input,
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #22a6b3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0984e3;
+  }
+  
